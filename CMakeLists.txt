@@ -49,3 +49,6 @@ set(HAVE_WORKING_FORK 1)
  
 configure_file(config.h.cmake config.h)
 
+if (${HAVE_LIBPTHREAD})
+    target_link_libraries(dmucs -lpthread)
+endif()
