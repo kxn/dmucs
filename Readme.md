@@ -1,3 +1,5 @@
+forked dmucs which can compile on modern systems easily using cmake
+
 
 # ![DMUCS](images/dmucs-logo-small.gif) DMUCS – a Distributed Multi-User Compilation System
 
