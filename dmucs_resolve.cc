@@ -28,7 +28,7 @@
 #include <netdb.h>
 #include <pthread.h>
 
-#ifndef HAVE_GETHOSTBYADDR_R
+#if HAVE_GETHOSTBYADDR_R == 0
 #ifdef HAVE_GETHOSTBYADDR
 static pthread_mutex_t gethost_mutex;
 static int gethost_mutex_inited = 0;

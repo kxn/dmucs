@@ -56,6 +56,7 @@ protected:
 public:
     /* Factory Method: parseMsg */
     static DmucsMsg *parseMsg(Socket *sock, const char *buf);
+    virtual ~DmucsMsg() {}
 
     virtual void handle(Socket *sock, const char *buf) = 0;
 };

@@ -76,9 +76,6 @@ struct ip_firstfour {   /* copied from <netinet/ip.h>, who knows why it isn't ge
 
 /* for Apple's MAC OS-X - thanks to Paul Bourke */
 #ifdef __APPLE__
-# define macosx
-#endif
-#ifdef macosx
 # include <sys/types.h>
 # include <sys/select.h>
 # include <sys/socket.h>

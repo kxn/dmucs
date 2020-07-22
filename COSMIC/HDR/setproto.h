@@ -30,7 +30,8 @@
        defined(MCH_AMIGA) || defined(_AIX)      || defined(__MSDOS__) || \
 	   defined(ultrix)    || defined(__DECC)    || defined(__alpha)   || \
 	   defined(__osf__)   || defined(__WIN32__) || defined(__linux__) || \
-	   defined(_MSC_VER)  || defined(os2)       || defined(AS400)
+	   defined(_MSC_VER)  || defined(os2)       || defined(AS400)     || \
+	   defined(__APPLE__)
 #    define __PROTOTYPE__
 #   endif
 #  endif
